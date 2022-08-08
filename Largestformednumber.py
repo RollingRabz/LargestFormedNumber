@@ -18,8 +18,8 @@ while count != 4:                                                        #ให
             count = count + 1                                            #นับว่าใส่ถูกต้องไปแล้วกี่ครั้ง
             print('you have add ',count,'set of number')                 #แจ้งว่าใส่ถูกต้องไปแล้วกี่ครั้ง
             
-    except ValueError:                                                   #เมื่อเกิดข้อผิดพลาดให้รันคำสั่งดังต่อไปนี้แทน                                                 # เมื่อไม่ได้ใส่ข้อมูลที่เป็น integer ให้แจ้งว่าต้องเป็น integer เท่านั้น
-        print('Must be integer.\n')
+    except ValueError:                                                   #เมื่อเกิดข้อผิดพลาดให้รันคำสั่งดังต่อไปนี้แทน                                                 
+        print('Must be integer.\n')                                      # เมื่อไม่ได้ใส่ข้อมูลที่เป็น integer ให้แจ้งว่าต้องเป็น integer เท่านั้น
                       
 for i in num:                                                            #รันทุกตำแหน่งใน num กำหนดให้ตัวแปรคือ i
     test.append(int(i))                                                  #นำตัว i ที่รันได้ไปใส่ใน list ที่ชื่อ test เพื่อให้หาค่า max ได้
